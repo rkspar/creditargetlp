@@ -29,7 +29,10 @@ mark,
   color: #24a828;
 }
 .text-default2 {
-  color: #4B0082;
+  color: #483D8B; 
+}
+.text-default3 {
+  color: #4B0082; 
 }
 /* Tables
 ---------------------------------- */
@@ -404,7 +407,7 @@ ul.pagination li.active a,
 /*Modals
 ---------------------------------- */
 .modal-content .modal-header {
-  background-color: #24a828;
+  background-color: #D3D3D3;
 }
 .modal-content .modal-title {
   color: #ffffff;
