@@ -48,7 +48,7 @@ mark,
 -------------------------------------------------
 -------------------------------------------------*/
 .header-top.dark {
-  background: linear-gradient(to bottom, #4B0082, #000);
+  background: white;
   border-bottom: 1px solid #242824;
 }
 .header.dark {
