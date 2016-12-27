@@ -34,11 +34,12 @@
 
 		<!-- Plugins -->
 		<link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+		<link href="plugins/rs-plugin/css/settings.css" rel="stylesheet">
 		<link href="css/animations.css" rel="stylesheet">
-		<link href="plugins/fullpage/jquery.fullpage.min.css" rel="stylesheet">
 		<link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
 		<link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
 		<link href="plugins/hover/hover-min.css" rel="stylesheet">		
+		<link href="plugins/morphext/morphext.css" rel="stylesheet">
 		
 		<!-- The Project core CSS file -->
 		<link href="css/style.css" rel="stylesheet" >
@@ -55,7 +56,7 @@
 	<!-- "transparent-header": makes the header transparent and pulls the banner to top -->
 	<!-- "gradient-background-header": applies gradient background to header -->
 	<!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
-	<body class="no-trans front-page transparent-header gradient-background-header full-page">
+	<body class="no-trans front-page transparent-header  ">
 
 		<!-- scrollToTop -->
 		<!-- ================ -->
@@ -67,141 +68,309 @@
 		
 			<!-- header-container start -->
 			<div class="header-container">
+				
 				<!-- header start -->
+				<!-- classes:  -->
+				<!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
+				<!-- "dark": dark version of header e.g. class="header dark clearfix" -->
+				<!-- "full-width": mandatory class for the full-width menu layout -->
+				<!-- "centered": mandatory class for the centered logo layout -->
 				<!-- ================ --> 
-				<div class="header-top dark ">
+				<header class="header  fixed   dark clearfix">
+					
 					<div class="container">
 						<div class="row">
-							<div class="col-xs-2 col-sm-5">
-								<!-- header-top-first start -->
+							<div class="col-md-3 ">
+								<!-- header-left start -->
 								<!-- ================ -->
-								<div class="header-top-first clearfix">
-									
-										<img src="images/ctt.png" width="210px">
-										
-									
-									
-								</div>
-								<!-- header-top-first end -->
-							</div>
-							<div class="col-xs-10 col-sm-7">
+								<div class="header-left clearfix">
 
-								<!-- header-top-second start -->
-								<!-- ================ -->
-								<div id="header-top-second"  class="clearfix text-right">
-									<ul class="list-inline">
-										<li><h4><strong>CALL FOR FREE CONSULTATION</strong></h4></li>
-										<li><h4><i class="fa fa-phone pr-5 pl-10"></i><a href="tel:8887657888"><b>1-(888)-765-7888</b></a></h4></li>
-										
-									</ul>
-									<ul class="social-links circle small clearfix hidden-xs">
-										<li class="twitter"><a target="_blank" href="https://twitter.com/creditarget"><i class="fa fa-twitter"></i></a></li>
-									
-										<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-										
-										
-										<li class="facebook"><a target="_blank" href="https://www.facebook.com/Creditarget-348690658825168/?fref=ts"><i class="fa fa-facebook"></i></a></li>
-										<li class="instagram"><a target="_blank" href="https://instagram.com/creditarget"><i class="fa fa-instagram"></i></a></li>
-										
-									</ul>
-									<div class="social-links hidden-lg hidden-md hidden-sm circle small">
-										<div class="btn-group dropdown">
-											<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
-											<ul class="dropdown-menu dropdown-animation">
-												<li class="twitter"><a target="_blank" href="https://twitter.com/creditarget"><i class="fa fa-twitter"></i></a></li>
-												
-												<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-												
-												
-												<li class="facebook"><a target="_blank" href="https://www.facebook.com/Creditarget-348690658825168/?fref=ts"><i class="fa fa-facebook"></i></a></li>
-												<li class="instagram"><a target="_blank" href="https://instagram.com/creditarget"><i class="fa fa-instagram"></i></a></li>
-												
-											</ul>
-										</div>
+									<!-- logo -->
+									<div id="logo" class="logo">
+										<a href="index.html"><img id="logo_img" src="images/ctt.png" alt="Creditarget"></a>
+									</div>
+
+									<!-- name-and-slogan -->
+									<div class="site-slogan">
+										New Credit. New Score. New Life.
 									</div>
 									
 								</div>
-								<!-- header-top-second end -->
+								<!-- header-left end -->
+
+							</div>
+							<div class="col-md-9">
+					
+								<!-- header-right start -->
+								<!-- ================ -->
+								<div class="header-right clearfix">
+									
+								<!-- main-navigation start -->
+								<!-- classes: -->
+								<!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
+								<!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
+								<!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
+								<!-- ================ -->
+								<div class="main-navigation  animated with-dropdown-buttons">
+
+									<!-- navbar start -->
+									<!-- ================ -->
+									<nav class="navbar navbar-default" role="navigation">
+										<div class="container-fluid">
+
+											<!-- Toggle get grouped for better mobile display -->
+											
+
+											<!-- Collect the nav links, forms, and other content for toggling -->
+											<div>
+												<!-- main-menu -->
+												
+												<!-- main-menu end -->
+												
+												<!-- header buttons -->
+												<div class="header-dropdown-buttons">
+													<a href="tel:18887657888" class="btn btn-sm hidden-xs btn-default">CALL FOR A FREE CONSULTATION</a>
+													<a href="tel:18887657888" class="btn btn-md visible-xs btn-block btn-default">CALL FOR A FREE CONSULTATION</a>
+
+													<a href="tel:18887657888" class="btn btn-sm hidden-xs btn-default">1 (888) 765-7888 <i class="fa fa-phone pl-5"></i></a>
+													<a href="tel:18887657888" class="btn btn-md visible-xs btn-block btn-default">1 (888) 765-7888 <i class="fa fa-phone pl-5"></i></a>
+												</div>
+												<!-- header buttons end-->
+												
+											</div>
+
+										</div>
+									</nav>
+									<!-- navbar end -->
+
+								</div>
+								<!-- main-navigation end -->
+								</div>
+								<!-- header-right end -->
+					
+							</div>
+						</div>
+					</div>
+					
+				</header>
+				<!-- header end -->
+			</div>
+			<!-- header-container end -->
+		
+			<!-- banner start -->
+			<!-- ================ -->
+			<div class="banner clearfix">
+
+				<!-- slideshow start -->
+				<!-- ================ -->
+				<div class="slideshow">
+
+					<!-- slider revolution start -->
+					<!-- ================ -->
+					<div class="slider-banner-container">
+						<div class="slider-banner-fullwidth-big-height">
+							<ul class="slides">
+								<!-- slide 1 start -->
+								<!-- ================ -->
+								<li data-transition="slidehorizontal" data-slotamount="1" data-masterspeed="500" data-saveperformance="on" data-title="Next Generation Template">
+
+								<!-- main image -->
+								<img src="images/ctbg1.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+
+								<!-- Transparent Background -->
+								<div class="tp-caption dark-translucent-bg"
+									data-x="center"
+									data-y="bottom"
+									data-speed="600"
+									data-start="0">
+								</div>
+
+								<!-- LAYER NR. 1 -->
+								<div class="tp-caption sfb fadeout large_white"
+									data-x="left"
+									data-y="150"
+									data-speed="500"
+									data-start="1000"
+									data-easing="easeOutQuad"
+									data-end="10000">Reach Your Financial Target
+								</div>
+
+								<!-- LAYER NR. 2 -->
+								<div class="tp-caption sfb fadeout text-left medium_white"
+									data-x="left"
+									data-y="230"
+									data-speed="500"
+									data-start="1300"
+									data-easing="easeOutQuad"
+									data-endspeed="600"><span class="icon default-bg circle small hidden-xs"><i class="icon-check"></i></span> FREE Personalized Credit Consultation
+								</div>
+
+								<!-- LAYER NR. 3 -->
+								<div class="tp-caption sfb fadeout text-left medium_white"
+									data-x="left"
+									data-y="290"
+									data-speed="500"
+									data-start="1600"
+									data-easing="easeOutQuad"
+									data-endspeed="600"><span class="icon default-bg circle small hidden-xs"><i class="icon-check"></i></span> FREE Score Evaluation and Recommended Solution
+								</div>
+
+								<!-- LAYER NR. 4 -->
+								<div class="tp-caption sfb fadeout text-left medium_white"
+									data-x="left"
+									data-y="350"
+									data-speed="500"
+									data-start="1900"
+									data-easing="easeOutQuad"
+									data-endspeed="600"><span class="icon default-bg circle small hidden-xs"><i class="icon-check"></i></span> FREE Credit Coaching to all <span class="text-default"><b>Credi</span><span class="text-default2">target</b></span> Members
+								</div>
+
+								<!-- LAYER NR. 5 -->
+								
+
+								<!-- LAYER NR. 6 -->
+								<div class="tp-caption sfb fadeout small_white"
+									data-x="left"
+									data-y="410"
+									data-speed="500"
+									data-start="2500"
+									data-easing="easeOutQuad"
+									data-endspeed="600"><a href="tel:18887657888" class="btn btn-default-transparent btn-lg btn-animated">Call Now<i class="fa fa-phone"></i></a>
+								</div>
+
+								</li>
+								<!-- slide 1 end -->
+
+								<!-- slide 2 start -->
+								<!-- ================ -->
+								<li data-transition="slidehorizontal" data-slotamount="1" data-masterspeed="500" data-saveperformance="on" data-title="Premium Bootstrap Template">
+
+								<!-- main image -->
+								<img src="images/cover1.jpg" alt="slidebg2" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+
+								<!-- Transparent Background -->
+								<div class="tp-caption dark-translucent-bg"
+									data-x="center"
+									data-y="bottom"
+									data-speed="600"
+									data-start="0">
+								</div>
+
+								<!-- LAYER NR. 1 -->
+								<div class="tp-caption sfb fadeout large_white"
+									data-x="left"
+									data-y="150"
+									data-speed="500"
+									data-start="1000"
+									data-easing="easeOutQuad"
+									data-end="10000">Reach Your Financial Target
+								</div>
+
+								<!-- LAYER NR. 2 -->
+								<div class="tp-caption sfb fadeout text-left medium_white"
+									data-x="left"
+									data-y="230"
+									data-speed="500"
+									data-start="1300"
+									data-easing="easeOutQuad"
+									data-endspeed="600"><span class="icon default-bg circle small hidden-xs"><i class="icon-check"></i></span> FREE Personalized Credit Consultation
+								</div>
+
+								<!-- LAYER NR. 3 -->
+								<div class="tp-caption sfb fadeout text-left medium_white"
+									data-x="left"
+									data-y="290"
+									data-speed="500"
+									data-start="1600"
+									data-easing="easeOutQuad"
+									data-endspeed="600"><span class="icon default-bg circle small hidden-xs"><i class="icon-check"></i></span> FREE Score Evaluation and Recommended Solution
+								</div>
+
+								<!-- LAYER NR. 4 -->
+								<div class="tp-caption sfb fadeout text-left medium_white"
+									data-x="left"
+									data-y="350"
+									data-speed="500"
+									data-start="1900"
+									data-easing="easeOutQuad"
+									data-endspeed="600"><span class="icon default-bg circle small hidden-xs"><i class="icon-check"></i></span> FREE Credit Coaching to all <span class="text-default"><b>Credi</span><span class="text-default2">target</b></span> Members
+								</div>
+
+								<!-- LAYER NR. 5 -->
+								
+
+								<!-- LAYER NR. 6 -->
+								<div class="tp-caption sfb fadeout small_white"
+									data-x="left"
+									data-y="410"
+									data-speed="500"
+									data-start="2500"
+									data-easing="easeOutQuad"
+									data-endspeed="600"><a href="tel:18887657888" class="btn btn-default-transparent btn-lg btn-animated">Call Now<i class="fa fa-phone"></i></a>
+								</div>
+
+								</li>
+
+								
+								<!-- slide 2 end -->
+							</ul>
+							<div class="tp-bannertimer"></div>
+						</div>
+					</div>
+					<!-- slider revolution end -->
+
+				</div>
+				<!-- slideshow end -->
+
+			</div>
+			<!-- banner end -->
+
+			<div id="page-start"></div>
+
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="section light-gray-bg pv-30 padding-bottom-clear clearfix">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 ">
+							<div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+								<span class="icon without-bg"><i class="fa text-default fa-book"></i></span>
+								<div class="body">
+									<h4 class="title">Repair Your Credit History</h4>
+									<p class="text-muted">Creditarget challenges all credit bureaus to remove negative report items, discrepancies, and inaccurate information. All three bureau reports are closely examined across your entire lifespan from top to bottom. Any new credit-laden transactions are continuously advised and monitored.</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 ">
+							<div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
+								<span class="icon without-bg"><i class="fa text-default fa-credit-card-alt"></i></span>
+								<div class="body">
+									<h4 class="title">Maintain Your Good Credit</h4>
+									<p class="text-muted">24/7 Credit Monitoring and Payments Alerts stay on top of your credit while our experienced credit professionals assist with regular credit monitoring, bureau alerts, and protection against identity theft.</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 ">
+							<div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+								<span class="icon without-bg"><i class="fa text-default icon-home"></i></span>
+								<div class="body">
+									<h4 class="title">Reach Your Financial Target</h4>
+									<p class="text-muted">Our specialists guide you through our user-friendly interface and proven technology to increase credit health. Tools such as Credit Score Simulator and Score Tracker work directly to decrease your interest rates and increase your credit score and approval rating. </p>
+									
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- header end -->
-			</div>
-			<!-- header-container end -->
+			</section>
+			<!-- section end -->
 
-			<div class="fullpage-site">
-
-				<!-- section start -->
-				<!-- ================ -->
-				<section id="section-1" class="section dark-translucent-bg" style="background-image: url(images/ctbg1.png);">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<center><iframe width="100%" height="315" src="https://www.youtube.com/embed/wo4jKnrtY-A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></center>
-							</div>
-							<div class="col-md-6">
-								<h1 class="title large"><b><i>We Repair & Build Your Credit</i></b></h1>
-								<div class="separator-2"></div>
-								<p class="large"><b>The mission of Credit Target is to take our clients by the hand and deliver first class credit repair and advanced credit repair tools to make our community more successful and profitable.</b></p>
-								<a href="#secondPage" class="btn btn-default btn-xl btn-animated" data-toggle="modal" data-target="#register"><b>Let's Start</b> <i class="fa fa-arrow-right"></i></a>
-								<div class="tp-caption"
-									
-									
-									
-									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-										<a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</section>
-				<!-- section end -->
-
-				<!-- section start -->
-				<!-- ================ -->
-				<section id="section-2" class="section dark-translucent-bg" style="background-image: url(images/ctbg2.png);">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8 text-center col-md-offset-2 pv-20">
-
-								<h2 class="title"><b><span class="text-default">About Us</span></b></h2>
-								<div class="separator mt-10"></div>
-								<p class="text-center"><h3><b>Our staff has twenty five years of experience handling the full spectrum of credit and will only work exceptionally hard to check, challenge, and change your credit score. Adhering to our core values of open and honest communication is key from the moment we begin, and throughout the critical process of protecting you while meeting the obligations of credit bureaus to appropriate changes.</b></h3></p>
-								<h2><b>Register now for Free Access to your Creditarget Dashboard!</b></h2>
-								<i class="fa fa-arrow-down"></i>  <i class="fa fa-arrow-down"></i>  <i class="fa fa-arrow-down"></i>
-							</div>
-						</div>
-					</div>
-					<div class="container-fluid">
-						<div class="row">
-							
-							<center><button class="btn square btn-default btn-xl btn-animated" data-toggle="modal" data-target="#register"><b>Register Now</b><i class="fa fa-arrow-right"></i></button></center>
-							<center><img src="images/ctt.png" data-animation-effect="rotateIn" width="300px"></center>
-							
-
-
-						</div>
-					</div>
-				</section>
-				<!-- section end -->
-
-				<!-- section start -->
-				<!-- ================ -->
-				<section id="section-3" class="section light-gray-bg">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8 col-md-offset-2 text-center">
-								<center><img src="images/favicon1.png" data-animation-effect="rotateIn" width="100px"></center>
-								<h2 class="title"><b><span class="text-default">Credi</span><span class="text-default2">target</span> <span class="text-default">Services</b></span></h2>
-								<div class="separator"></div>
-								<p class="lead text-center text-default2"><b>If you wish to pay with confidence with an improved credit rating, you've come to the right place. Our exceptional and experienced staff strives to build your credit health across the entire spectrum of relevant factors. Other companies simply show you the score. Credit Target sets your sights on obtaining a lifelong lifestyle change with personalized and insightful guidance.</b></p>
-								<div class="space-bottom"></div>
-							</div>
-						</div>
-					</div>
-					<div class="owl-carousel carousel-autoplay">
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="section clearfix">
+				<div class="owl-carousel carousel-autoplay">
 						<div class="image-box shadow text-center">
 							<div class="overlay-container">
 								<img src="images/1.png" alt="">
@@ -299,10 +468,341 @@
 							</div>
 						</div>
 					</div>
-				</section>
-				<!-- section end -->
+			</section>
+			<!-- section end -->
 
-				<section id="section-4" class="section dark-translucent-bg" style="background-image: url(images/ctbg4.jpg);">
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="section clearfix">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="call-to-action well">
+								<h2 class="title">We offer more possibilities to meet your every need</h2>
+								<div class="row">
+									<div class="col-sm-8">
+										<p><b>It’s time to get real answers to your credit questions. Credit Target’s experienced credit professionals have collaborated to make repairing your credit easier and faster than ever before. Learn and enact the meaningful, positive changes to your score step-by-step.</b></p>
+									</div>
+									<div class="col-sm-4 text-right">
+										<a data-toggle="modal" data-target=".bs-example-modal-lg" class="btn btn-lg btn-default btn-animated">Learn More<i class="fa fa-arrow-right pl-20"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section end -->
+
+<section class="clearfix pv-30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<!--<h3 class="text-center">The <strong>Process</strong> We Follow</h3>
+							<div class="separator"></div>-->
+							<!-- pills start -->
+							<!-- ================ -->
+							<div class="process">
+								
+					<!-- ================ -->
+					
+								<!-- pricing table start -->
+								<!-- ================ -->
+								<div id="pricing"class="pricing-tables circle-head object-non-visible" data-animation-effect="fadeInUpSmall"  data-effect-delay="0">
+								<div class="row grid-space-10">
+									
+										<!-- pricing table start -->
+										<!-- ================ -->
+										
+								<!-- pricing table end -->
+							
+							<div class="col-sm-3">
+								<!-- pricing table start -->
+								<!-- ================ -->
+								<div class="plan shadow light-gray-bg bordered">
+									<h2><strong>Restoration <span class="text-default"> Target </span> Package</strong></h2>
+											<center><img src="images/favicon1.png" data-animation-effect="rotateIn" width="200px"></center>
+									
+									<ul>
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Get personalized account assistance on your My Target Account." title="" data-original-title="Account Manager">Account Manager</a></li>
+										
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Credit Target ensures that the credit bureaus present your credit repair in a fair and accurate manner." title="" data-original-title="Bureau Challenges">Bureau Challenges</a></li>
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Credit Target communicates with creditors to help protect your credit reports and scores." title="" data-original-title="Credit Interventions">Credit Interventions</a></li>
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Get the necessary legal tools to confront unfair credit score damage that can occur when creditors check your credit reports." title="" data-original-title="Inquiry Assist">Inquiry Assist</a></li>       
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Credit Target evaluates your credit reports using five score factors and gives you a detail" title="" data-original-title="Score Analysis">Score Analysis</a></li> 
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Receive Credit Coaching on how to understand and address damaging credit report changes as they occur." title="" data-original-title="Report Watch">Report Watch</a></li> 
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Credit Target employs legal strategies that ask abusive debt collectors to Cease & Desist" title="" data-original-title="Cease & Desist">Cease & Desist</a></li> 
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Credit Target gives you access to your own personal online dashboard which provides analytics to help you analyze your credit report and dispute status. 24/7 access to your credit score, report and inquiry assist." title="" data-original-title="Professional Online Dashboard">Professional Online Dashboard</a></li> 
+
+										<a class="pt-popover" data-toggle="popover" data-placement="right" data-content="The easiest way to get your process started. This feature automatically loads your 3-branch credit report into your personalized client dashboard. (This payment is made to Identity IQ, a third party credit report provider)" title="" data-original-title="Expedite My Case Now - $9.99"><strong>Expedite My Case Now - $9.99/month</strong></a><br><h6>*Optional</h6>
+
+										<html>
+<head>
+<script>
+ function disableSubmit() {
+  document.getElementById("submit").disabled = true;
+ }
+
+  function activateButton(element) {
+
+      if(element.checked) {
+        document.getElementById("submit").disabled = false;
+       }
+       else  {
+        document.getElementById("submit").disabled = true;
+      }
+
+  }
+</script>
+</head>
+
+<body onload="disableSubmit()">
+ <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)"> I Agree <a data-toggle="modal"data-target="#terms"> Terms & Conditions</a>
+ <li><a class="btn btn-gray-transparent radius-50 btn-animated btn-hvr hvr-radial-out" data-toggle="modal" data-target=".bs-example-modal-lg">$69.99/month <i class="fa fa-angle-double-right"></i></a></li>
+ <li><h6>You will be charged 5 days <br>after the initial work on<br> your credit profile.</h6></li>
+
+
+
+							<!-- Modal -->
+							<div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+											<h4 class="modal-title" id="myModalLabel">Terms and Conditions</h4>
+										</div>
+										<div class="modal-body">
+											<center><img src="images/ctt.png" width="300px"></center>
+											<h4><b>Agreement between user and www.creditarget.com/</b></h4>
+							<p>Welcome to http://www.creditarget.com/. The http://www.creditarget.com/ website (the "Site") is comprised of various web pages operated by Creditarget ("Creditarget"). http://www.creditarget.com/ is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein (the "Terms"). Your use of http://www.creditarget.com/ constitutes your agreement to all such Terms. Please read these terms carefully, and keep a copy of them for your reference.</p>
+							<p>www.creditarget.com/ is a News and Information Site</p>
+							<p>The mission of Credit Target is to take our clients by the hand and deliver first class credit repair and advanced credit repair tools to make our community more successful and profitable.</p>
+							<h4><b>Privacy</b></h4>
+							<p>Your use of www.creditarget.com/ is subject to Creditarget's Privacy Policy. Please review our Privacy Policy, which also governs the Site and informs users of our data collection practices.</p>
+							<h4><b>Electronic Communications</b></h4>
+							<p>Visiting http://www.creditarget.com/ or sending emails to Creditarget constitutes electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communications be in writing.</p>
+							<h4><b>Your account</b></h4>
+							<p>If you use this site, you are responsible for maintaining the confidentiality of your account and password and for restricting access to your computer, and you agree to accept responsibility for all activities that occur under your account or password. You may not assign or otherwise transfer your account to any other person or entity. You acknowledge that Creditarget is not responsible for third party access to your account that results from theft or misappropriation of your account. Creditarget and its associates reserve the right to refuse or cancel service, terminate accounts, or remove or edit content in our sole discretion.</p>
+							<p>Creditarget does not knowingly collect, either online or offline, personal information from persons under the age of thirteen. If you are under 18, you may use http://www.creditarget.com/ only with permission of a parent or guardian.</p>
+							<h4><b>Cancellation/Refund Policy</b></h4>
+							<p>You may cancel your subscription at any time. Any cancellations made after 60 days of service will not qualify for a refund. Please contact us at info@creditarget.com with any questions.</p>
+							<h4><b>Links to third party sites/Third party services</b></h4>
+							<p>http://www.creditarget.com/ may contain links to other websites ("Linked Sites"). The Linked Sites are not under the control of Creditarget and Creditarget is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site. Creditarget is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by Creditarget of the site or any association with its operators.</p>
+
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+											
+										</div>
+									</div>
+								</div>
+							</div></li>
+</body>
+</html></li>
+										
+									</ul>
+									
+								</div>
+								<!-- pricing table end -->
+
+							</div>
+
+
+
+
+
+							<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-md">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+											<h4 class="modal-title" id="myModalLabel">Register</h4>
+										</div>
+										<div class="modal-body">
+											<center><img src="images/favicon1.png" data-animation-effect="rotateIn" width="200px"></center>
+											<h3>Free access to your <strong>Credit Target</strong> Dashboard</h3>
+<div class="contact-form">
+									<form id='frmWebToLead' method='POST' action='https://beta.scoreceo.com/FormSnippet/SaveFormToLead'><table>
+										
+											<div class="form-group has-feedback">
+											First Name*<input id='txtFirstName' type='text' name='txtFirstName'  class="form-control"><i class="fa fa-user form-control-feedback"></i>
+										</div>
+										<div class="form-group has-feedback">
+										Last Name*<input id='txtLastName' type='text' name='txtLastName'class="form-control"><i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										Email*<input id='txtEmail' type='text' name='txtEmail'class="form-control"><i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										Phone Number*<input id='txtPhoneNo' type='text' name='txtPhoneNo' class="form-control"><i class="fa fa-phone form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										Zip Code*<input id='txtPostalCode' type='text' name='txtPostalCode' class="form-control">
+												<i class="fa fa-home form-control-feedback"></i>
+									</div>
+										<tr><td>&nbsp;</td><td align='center'><input type='submit' name='btnSubmit' class="submit-button btn btn-default" value='Submit'/> <input type='hidden' name='hfFormType' value='WebToLead'/> <input type='hidden' name='hfFormId' value='177'/> <input type='hidden' name='hfReturnUrl' value='http://www.creditarget.com/client-dashboard.html'/> <input type='hidden' value=''/> <input type='hidden' id='hfReferralId' name='hfReferralId' value='7959'/></td></tr></table></form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+											
+										</div>
+									</div>
+								</div>
+							</div></div>
+
+
+
+
+
+
+
+							<div class="col-sm-3">
+								<!-- pricing table start -->
+								<!-- ================ -->
+								<div class="plan shadow light-gray-bg bordered">
+									<h2><strong>Financial <span class="text-default"> Target </span> Package</strong></h2>
+											<center><img src="images/favicon1.png" data-animation-effect="rotateIn" width="200px"></center>
+									
+									<ul>
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Get professional help on active financial products and services and assistance on your financial needs." title="" data-original-title="Personal Financial Adviser">Personal Financial Adviser</a></li>
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="We will implement an investment strategy that balances Risk versus Reward." title="" data-original-title="Asset Allocation">Asset Allocation</a></li>
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="We will review and analyze all facets of your financial situation including cash flow analysis, retirement planning, investment management, tax management and rish management" title="" data-original-title="Comprehensive Financial Planning">Comprehensive Financial Planning</a></li>
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Let us show you the steps to take to raise your approval rating  for loans, credit cards, or even a rental." title="" data-original-title="Approval Rating">Approval Rating</a></li>
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Receive reminders on when to pay your credit card, car loan, mortgage, or implement bills that might affect your report" title="" data-original-title="Payment Alerts">Payment Alerts</a></li>
+										<li><a class="pt-popover" data-toggle="popover" data-placement="right" data-content="Credit Target gives you access to your own personal online dashboard which provides analytics to help you analyze your credit report and dispute status. 24/7 access to your credit score, report and inquiry assist." title="" data-original-title="Professional Online Dashboard">Professional Online Dashboard</a></li> 
+										<li><script>
+ function disableSubmit() {
+  document.getElementById("submit").disabled = true;
+ }
+
+  function activateButton(element) {
+
+      if(element.checked) {
+        document.getElementById("submit").disabled = false;
+       }
+       else  {
+        document.getElementById("submit").disabled = true;
+      }
+
+  }
+</script>
+</head>
+
+<body onload="disableSubmit()">
+ <h6><input type="checkbox" name="terms" id="terms" onchange="activateButton(this)"> Restoration Target Package - $49.99</h6></li>
+										<a class="pt-popover" data-toggle="popover" data-placement="right" data-content="The easiest way to get your process started. This feature automatically loads your 3-branch credit report into your personalized client dashboard. (This payment is made to Identity IQ, a third party credit report provider)" title="" data-original-title="Expedite My Case Now - $9.99"><strong>Expedite My Case Now - $9.99/month</strong></a><br><h6>*Optional</h6>
+
+										<html>
+<head>
+<script>
+ function disableSubmit() {
+  document.getElementById("submit").disabled = true;
+ }
+
+  function activateButton(element) {
+
+      if(element.checked) {
+        document.getElementById("submit").disabled = false;
+       }
+       else  {
+        document.getElementById("submit").disabled = true;
+      }
+
+  }
+</script>
+</head>
+
+<body onload="disableSubmit()">
+ <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)"> I Agree <a data-toggle="modal"data-target="#terms"> Terms & Conditions</a>
+ <li><a class="btn btn-gray-transparent radius-50 btn-animated btn-hvr hvr-radial-out" data-toggle="modal" data-target=".bs-example-modal-lg">$129.99/month <i class="fa fa-angle-double-right"></i></a></li>
+ <li><h6>You will be charged 5 days <br>after the initial work on<br> your credit profile.</h6></li>
+										 
+									</ul>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<iframe width="100%" height="315" src="https://www.youtube.com/embed/wo4jKnrtY-A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br>
+								<h1>The Process We Follow</h1>
+										<ul class="nav nav-tabs style-1" role="tablist">
+								<li class="active"><a href="#htab1" role="tab" data-toggle="tab"><i class="fa fa-search pr-10"></i>Analyze Your Credit Score</a></li>
+								<li><a href="#htab2" role="tab" data-toggle="tab"><i class="fa fa-cubes pr-10"></i>Correct Your Credit Score</a></li>
+								<li><a href="#htab3" role="tab" data-toggle="tab"><i class="fa fa-cogs pr-10"></i>Build Your Credit Score</a></li>
+							</ul>
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div class="tab-pane fade in active" id="htab1">
+									<h3>Analyze Your Credit Score</h3>
+									<div class="row">
+										<div class="col-md-12">
+											<h4>Credit Consultants will help you understand and determine inconsistencies on your <strong>credit report</strong> that may affect your score.<br><br>Inconsistencies such as:</h4>
+										</div>
+										<div class="col-md-6">
+											<ul class="list-icons">
+								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check-1"></i> <span class="text-rotator" data-rotator-animation-effect="fadeIn">Late Payments, Collection, Garnishments</span></li>
+								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="icon-check-1"></i> <span class="text-rotator" data-rotator-animation-effect="fadeIn">Repossessions, Foreclosures, Bankruptcies </span></li>
+								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="icon-check-1"></i> <span class="text-rotator" data-rotator-animation-effect="fadeIn">Student Loans, Chargeoffs, Judgements</span></li>
+								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="icon-check-1"></i><span class="text-rotator" data-rotator-animation-effect="fadeIn">Tax Liens, Incorrect Balances, Incorrect Personal Data</span></li>
+								<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="icon-check-1"></i><span class="text-rotator" data-rotator-animation-effect="fadeIn">Unauthorized Inquiries, Identity Theft/Fraud, Medical Bills</span></li>
+
+							</ul>
+										</div>
+										<div class="col-md-6">
+											<center><img src="images/111.jpg" width="450px"></center>
+									</div>
+								</div>
+									
+								</div>
+								<div class="tab-pane fade" id="htab2">
+									<h3>Correct Your Credit Score</h3>
+									<div class="row">
+										<div class="col-md-12">
+											<h4>Our staff of <strong>credit experts</strong> will verify and dispute all inaccuracies on your credit.</h4>
+										</div>
+										<center><img src="images/222.jpg" width="400px"></center>
+									</div>
+									
+								</div>
+								<div class="tab-pane fade" id="htab3">
+									<h3>Build Your Credit Score</h3>
+									<div class="row">
+										<div class="col-md-6">
+											<h4>Proffesionals will help you build or establish new credit, giving you steps for <strong>guaranteed approval</strong> of credit and loans</h4>
+										</div>
+										<div class="col-md-6">
+											<center><img src="images/333.jpg" width="400px"></center>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							</div>
+							<div class="col-sm-12">
+										<!-- pricing table start -->
+										<!-- ================ -->
+										
+
+										<!--<div class="plan shadow light-gray-bg bordered">
+											<img src="images/cr.jpg">
+											<h4><strong>Helping you use credit responsibly to achieve your financial goals</strong></h4>
+											<p>Good credit can make the difference between being able to purchase a home, buy a car, or pay for college.  Open and honest communication through first class credit repair that includes proactive management strategies to stay in control of your finances. Our Online Security Guarantee stands as a symbol of trust and security as we serve our customers’ needs.  We guarantee that you will be covered for 100% of funds and treat your finances as if they were ours. We strive to keep you secured by keeping your information encrypted to avoid disclosure of personal information, assisting in promptly reporting incidents of unauthorized activity, and making claims. Credit Target operates under federal law and Regulation E, that secures electronic fund transfer activity. In addition, our Online Security Guarantee provides expanded protections beyond what federal law covers, including protections for business, brokerage, and monetary transactions.</p>
+											
+										</div>-->
+										<!-- pricing table end -->
+									</div>
+								<!-- pricing table end -->
+							</div>
+						</div>
+					</div>
+					<!-- pricing tables end -->
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section start -->
+			<!-- ================ -->
+			<section id="section-4" class="section dark-translucent-bg" style="background-image: url(images/cr1.jpg);">
 					<div class="owl-carousel content-slider">
 						<div class="container">
 							<div class="row">
@@ -422,95 +922,82 @@
 						</div>
 					</div>
 				</section>
+			<!-- section end -->
 
-				<!-- section start -->
-				<!-- ================ -->
-				<section id="section-5" class="section pv-40 stats padding-bottom-clear dark-translucent-bg hovered background-img-5">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8 text-center col-md-offset-2 pv-20">
-								<center><img src="images/ctt.png" data-animation-effect="rotateIn" width="300px"></center>
-								<h2 class="text-center"><b><span class="text-default">Contact Us</span></b></h2>
-								<div class="separator"></div>
-								<p class="lead text-center"><b>It would be great to hear from you! Just drop us a line and ask for anything with which you think we could be helpful. We are looking forward to hearing from you!</b></p>
-								<ul class="list-inline mb-20 text-center">
-									<li><i class="text-default fa fa-map-marker pr-5"></i><b>150 SE 2nd Ave Miami, FL 33131</b></li>
-									<li><a href="tel:18887657888" class="link-dark"><i class="text-default fa fa-phone pl-10 pr-5"></i><b>1(888) 765-7888</b></a></li>
-									<li><a href="mailto:info@creditarget.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i><b>info@creditarget.com</b></a></li>
-								</ul>
-								<div class="separator"></div>
-								<ul class="social-links circle animated-effect-1 margin-clear text-center space-bottom">
-									<li class="facebook"><a target="_blank" href="https://www.facebook.com/Creditarget-348690658825168/?fref=ts"><i class="fa fa-facebook"></i></a></li>
-											<li class="twitter"><a target="_blank" href="https://twitter.com/creditarget"><i class="fa fa-twitter"></i></a></li>
-
-										
-											
-											<li class="instagram"><a target="_blank" href="https://instagram.com/creditarget"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- section end -->
-			</div>
-			
-			<!-- .subfooter start -->
+			<!-- footer top start -->
 			<!-- ================ -->
-			<div class="subfooter">
+			<div class="translucent-bg footer-top animated-text" style=" background: linear-gradient(to bottom, #222222, #228B22, #222222);">
 				<div class="container">
-					<div class="subfooter-inner">
-						<div class="row">
-							<div class="col-md-12">
-								<p class="text-center margin-clear"><strong>Copyright 2016 Argaman Communication USA LLC. <br> DBA Creditarget All Rights Reserved</strong></p>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="call-to-action text-center">
+								<div class="row">
+									<div class="col-sm-8">
+										<h2>Already a <strong>Credit Target</strong> Member?</h2>
+										<h2>Sign in to your dashboard</h2>
+									</div>
+									<div class="col-sm-4">
+										<p class="mt-10"><a href="http://login.creditarget.com/" class="btn btn-animated radius-50 btn-lg btn-gray-transparent btn-hvr hvr-radial-out">Client Login<i class="fa fa-sign-in pl-20"></i></a></p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<!-- foote
+			<!-- footer top end -->
+			<!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
+			<!-- ================ -->
+			<footer id="footer" class="dark clearfix">
+
+				<!-- .footer start -->
+				<!-- ================ -->
+				<div class="footer">
+					<div class="container">
+						<div class="footer-inner">
+							<div class="row">
+								<div class="col-md-6 col-md-offset-3">
+									<div class="footer-content text-center padding-ver-clear">
+										<div class="logo-footer"><img id="logo-footer" class="center-block" src="images/ctt.png" width="260px"alt=""></div>
+										<h6><p>Our community strives to be empowered and successful in increasing credit education and eliminating debt. We strive to guide you through the whole process to make significant, long-lasting lifestyle changes that can give you access to your financial dreams through credit repair that reflects you honestly.</p></h6>
+										<ul class="list-inline mb-20">
+											
+											<li><a href="tel:18887657888" class="link-dark"><i class="text-default fa fa-phone pl-10 pr-5"></i><b>1(888)765-7888</b></a></li>
+											<li><a href="mailto:info@creditarget.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i><b>info@creditarget.com</b></a></li>
+											<li><i class="text-default fa fa-map-marker pl-10 pr-5"></i><b><a href="">150 SE 2nd Ave Miami, FL 33131</a></b></li>
+
+										</ul>
+										<ul class="social-links circle animated-effect-1 margin-clear">
+											
+											<li class="facebook"><a target="_blank" href="https://www.facebook.com/Creditarget-348690658825168/?fref=ts"><i class="fa fa-facebook"></i></a></li>
+											<li class="twitter"><a target="_blank" href="https://twitter.com/creditarget"><i class="fa fa-twitter"></i></a></li>
+
+										
+											<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+											<li class="instagram"><a target="_blank" href="https://instagram.com/creditarget"><i class="fa fa-instagram"></i></a></li>
+											
+											
+										</ul>
+										<div class="separator"></div>
+										<p class="text-center margin-clear"><a href="privacypolicy.html"><b>Privacy Policy</b></a> - <a href="termsandconditions.html"><b>Terms and Conditions</b></a></p>
+										<h6 class="text-center margin-clear"><strong>Copyright 2016 Creditarget Financial Solution Group LLC. <br>Argaman Communication USA LLC. <br> DBA Creditarget All Rights Reserved</strong></h6>
+									
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- .footer end -->
+
+			</footer>
 			<!-- footer end -->
 			
 		</div>
 		<!-- page-wrapper end -->
-<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								<div class="modal-dialog">
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-											<h4 class="modal-title" id="myModalLabel"><img src="images/ctt.png" width="160px"></h4>
-										</div>
-										<div class="modal-body">
-											<center><img src="images/favicon1.png" data-animation-effect="rotateIn" width="200px"></center>
-											<h3>Free access to your <strong><span class="text-default">Credi</span><span class="text-default2">target</span></strong> Dashboard</h3>
-<div class="contact-form">
-									<form id='frmWebToLead' method='POST' action='https://beta.scoreceo.com/FormSnippet/SaveFormToLead'><table>
-										
-											<div class="form-group has-feedback">
-											First Name*<input id='txtFirstName' type='text' name='txtFirstName'  class="form-control"><i class="fa fa-user form-control-feedback"></i>
-										</div>
-										<div class="form-group has-feedback">
-										Last Name*<input id='txtLastName' type='text' name='txtLastName'class="form-control"><i class="fa fa-user form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										Email*<input id='txtEmail' type='text' name='txtEmail'class="form-control"><i class="fa fa-envelope form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										Phone Number*<input id='txtPhoneNo' type='text' name='txtPhoneNo' class="form-control"><i class="fa fa-phone form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										Zip Code*<input id='txtPostalCode' type='text' name='txtPostalCode' class="form-control">
-												<i class="fa fa-home form-control-feedback"></i>
-									</div>
-										<tr><td>&nbsp;</td><td align='center'><input type='submit' name='btnSubmit' class="submit-button btn btn-default" value='Submit'/> <input type='hidden' name='hfFormType' value='WebToLead'/> <input type='hidden' name='hfFormId' value='177'/> <input type='hidden' name='hfReturnUrl' value='http://www.creditarget.com/client-dashboard.html'/> <input type='hidden' value=''/> <input type='hidden' id='hfReferralId' name='hfReferralId' value='7959'/></td></tr></table></form>
 
-
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
-											
-										</div>
-									</div>
-								</div>
-							</div>
 		<!-- JavaScript files placed at the end of the document so the pages load faster -->
 		<!-- ================================================== -->
 		<!-- Jquery and Bootstap core js files -->
@@ -518,9 +1005,9 @@
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 		<!-- Modernizr javascript -->
 		<script type="text/javascript" src="plugins/modernizr.js"></script>
-		<!-- Fullpage javascript -->
-		<script type="text/javascript" src="plugins/slimscroll/jquery.slimscroll.min.js"></script>
-		<script type="text/javascript" src="plugins/fullpage/jquery.fullpage.js"></script>
+		<!-- jQuery Revolution Slider  -->
+		<script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 		<!-- Isotope javascript -->
 		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
 		<!-- Magnific Popup javascript -->
@@ -533,6 +1020,8 @@
 		<script src="plugins/jquery.parallax-1.1.3.js"></script>
 		<!-- Contact form -->
 		<script src="plugins/jquery.validate.js"></script>
+		<!-- Morphext -->
+		<script type="text/javascript" src="plugins/morphext/morphext.min.js"></script>
 		<!-- Background Video -->
 		<script src="plugins/vide/jquery.vide.js"></script>
 		<!-- Owl carousel javascript -->

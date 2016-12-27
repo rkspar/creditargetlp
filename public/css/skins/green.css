@@ -48,7 +48,7 @@ mark,
 -------------------------------------------------
 -------------------------------------------------*/
 .header-top.dark {
-  background: white;
+  background-color: #ffffff;
   border-bottom: 1px solid #242824;
 }
 .header.dark {
@@ -407,7 +407,7 @@ ul.pagination li.active a,
 /*Modals
 ---------------------------------- */
 .modal-content .modal-header {
-  background-color: #D3D3D3;
+  background-color: #222222;
 }
 .modal-content .modal-title {
   color: #ffffff;
