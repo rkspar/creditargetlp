@@ -48,7 +48,7 @@ mark,
 -------------------------------------------------
 -------------------------------------------------*/
 .header-top.dark {
-  background-color: #ffffff;
+  background: linear-gradient(to bottom, #4B0082, #000);
   border-bottom: 1px solid #242824;
 }
 .header.dark {
@@ -69,7 +69,7 @@ mark,
 }
 /*Transparent Header*/
 .transparent-header header.header.dark.transparent-header-on {
-  background-color: rgba(211, 211, 211);
+  background-color: rgba(60, 67, 61, 0.8);
   border-top-color: rgba(36, 40, 36, 0.5);
 }
 /*Fixed Navigation*/
@@ -407,7 +407,7 @@ ul.pagination li.active a,
 /*Modals
 ---------------------------------- */
 .modal-content .modal-header {
-  background-color: #222222;
+  background-color: #24a828;
 }
 .modal-content .modal-title {
   color: #ffffff;

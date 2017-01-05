@@ -76,7 +76,7 @@ h6 a {
 .dark h4,
 .dark h5,
 .dark h6 {
-  color: #000;
+  color: #ffffff;
 }
 .dark h1 a,
 .dark h2 a,
@@ -84,7 +84,7 @@ h6 a {
 .dark h4 a,
 .dark h5 a,
 .dark h6 a {
-  color: #000;
+  color: #ffffff;
 }
 .dark .footer h1,
 .dark .footer h2,
@@ -92,7 +92,7 @@ h6 a {
 .dark .footer h4,
 .dark .footer h5,
 .dark .footer h6 {
-  color: #ffffff;
+  color: #999999;
 }
 .dark .footer h1 a,
 .dark .footer h2 a,
@@ -725,7 +725,7 @@ tbody {
   background: url("../images/background-img-4.jpg") 50% 0px no-repeat;
 }
 .background-img-5 {
-  background: url("../images/cr1.jpg") 50% 0px no-repeat;
+  background: url("../images/background-img-5.jpg") 50% 0px no-repeat;
 }
 .background-img-6 {
   background: url("../images/beach.png") 50% 0px no-repeat;
@@ -6709,25 +6709,10 @@ h6.media-heading {
   text-align: center;
   margin-bottom: 40px !important;
 }
-.plan2 {
-  text-align: center;
-  margin-bottom: 40px !important;
-}
 .plan.round-corners .header {
   -webkit-border-radius: 25px 25px 0 0;
   -moz-border-radius: 25px 25px 0 0;
   border-radius: 25px 25px 0 0;
-}
-.plan.round-corners .header {
-  -webkit-border-radius: 25px 25px 0 0;
-  -moz-border-radius: 25px 25px 0 0;
-  border-radius: 25px 25px 0 0;
-}
-.plan.round-corners ul li:last-child,
-.plan.round-corners ul {
-  -webkit-border-radius: 0 0 25px 25px;
-  -moz-border-radius: 0 0 25px 25px;
-  border-radius: 0 0 25px 25px;
 }
 .plan.round-corners ul li:last-child,
 .plan.round-corners ul {
@@ -6740,21 +6725,7 @@ h6.media-heading {
   margin: 0 -1px;
   border: none;
 }
-.plan2 .header {
-  padding: 0;
-  margin: 0 -1px;
-  border: none;
-}
 .plan .header h3 {
-  font-size: 36px;
-  margin: 0;
-  line-height: 36px;
-  font-weight: 300;
-  padding: 15px 0 10px;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  border-top: none;
-}
-.plan2 .header h3 {
   font-size: 36px;
   margin: 0;
   line-height: 36px;
@@ -6773,37 +6744,14 @@ h6.media-heading {
   line-height: 1;
   color: #ffffff;
 }
-.plan2 .header .price {
-  font-size: 28px;
-  padding: 8px 0 10px;
-  font-weight: 300;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  line-height: 1;
-  color: #ffffff;
-}
 .plan ul {
   margin: 0;
   padding: 0;
   font-size: 14px;
   list-style: none;
 }
-.plan2 ul {
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  list-style: none;
-}
 .plan ul li {
-  padding: 4px 0px;
-  font-size: 13px;
-  border-bottom: 1px solid #f3f3f3;
-  border-top: 1px solid #ffffff;
-  color: #333333;
-}
-.plan2 ul li  {
-  padding: 8.5px 0px;
+  padding: 12px 0px;
   font-size: 13px;
   border-bottom: 1px solid #f3f3f3;
   border-top: 1px solid #ffffff;
@@ -6817,27 +6765,10 @@ h6.media-heading {
   border-bottom: 1px #000;
   position: relative;
 }
-.plan2 ul li a.pt-popover {
-  color: #1f9123;
-  border-bottom: 1px #000;
-  position: relative;
-}
 .plan ul li a.pt-popover:hover {
   text-decoration: none;
 }
-.plan2 ul li a.pt-popover:hover {
-  text-decoration: none;
-}
 .plan ul li a.pt-popover:after {
-  position: absolute;
-  top: 0px;
-  left: -15px;
-  font-family: "FontAwesome";
-  content: "\f059";
-  color: #ddd;
-  font-size: 12px;
-}
-.plan2 ul li a.pt-popover:after {
   position: absolute;
   top: 0px;
   left: -15px;
